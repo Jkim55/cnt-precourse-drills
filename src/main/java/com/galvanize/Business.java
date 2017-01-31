@@ -1,8 +1,8 @@
 package com.galvanize;
 
-
 import java.util.ArrayList;
 import java.util.List;
+
 
 public class Business implements Addressable {
     private String name;
@@ -23,5 +23,5 @@ public class Business implements Addressable {
     public void addAddress(Address address) {
         addresses.add(address);
     }
-
+    
 }

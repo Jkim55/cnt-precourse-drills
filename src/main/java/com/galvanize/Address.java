@@ -1,5 +1,6 @@
 package com.galvanize;
 
+
 public class Address {
     private String street;
     private String city;
@@ -49,4 +50,5 @@ public class Address {
     public String toString() {
         return street + ", " + city + ", " + state + " " + zip;
     }
+
 }
